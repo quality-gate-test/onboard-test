@@ -1,0 +1,13 @@
+{
+  "name": "onboard-test",
+  "version": "1.0.0",
+  "private": true,
+  "description": "throwaway repo to verify onboard-repo.sh end-to-end",
+  "scripts": {
+    "lint": "eslint .",
+    "typecheck": "echo \"no tsc\"",
+    "test": "node --test",
+    "build": "node -e \"require('fs').mkdirSync('dist',{recursive:true})\""
+  },
+  "devDependencies": { "eslint": "^8.57.0" }
+}
